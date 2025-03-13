@@ -1,38 +1,89 @@
-/* your code here */
 :root{
-	background-color: green;
+    background-color: rgb(64, 223, 136)
 }
-.photo-container{
-	background-color: lightgreen;
+.product__photo{
+    height: 85%;
+    width: 40%;
+    background-color: greenyellow;
+    border-radius: 5px;
+    margin: 40px 10px 40px 0px;
+    position: relative;
+    left: -50px
 }
-.photo-album>ul{
-	display: flex;
-	list-style-type: none;
-	background-color: white;
+.product__info{
+    margin-top: 40px;
 }
-.photo-album>ul>li{
-	border: 1px solid gray;
+h3,.code{
+    color: gray;
+    font-size:small;
 }
-.variant>ul{
-	display: flex;
-	list-style-type: none;
+.price{
+    font-size: 23px;
+    color: red;
 }
-.variant>ul>li{
-	border: 1px solid gray;
+.price>span{
+    font-size: 50px;
+    font-weight: bold;
 }
-.photo-main{
-	
-}
-.product{
-	height: 100vh;
-	width: 60vw;
-	display: flex;
-	justify-content: center;
-	background-color: white;
-	margin: 100px;
+.image{
+    border: 1px solid gray;
+    margin: 1px;
+    border-radius: 4px;
+    height: 40px;
 }
 .apple-image{
-	/* height: 50%; */
-	position: relative;
-	left: -60px
+    position: relative;
+    left: -50px;
+    height: 300px;
+    width: 300px;
+}
+.photo-container{
+    /* background-color: greenyellow */
+}
+.photo-album{
+    background-color: white;
+   
+}
+h1{
+    font-weight: ;
+}
+.variant>ul>li,.photo-album>ul>li{
+    list-style-type: none;
+}
+.product{
+    display: flex;
+    background-color: white;
+    height: 90vh;
+    width: 50%;
+    margin: auto;
+}
+.list2,.list1{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .list1{
+    position: relative;
+    bottom: 0px;
+} */
+
+.fa-heart-o{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    padding: 5px;
+}
+.fa-share-alt{
+    color: white;
+    padding: 5px;
+}
+.button{
+    background-color: rgb(222, 49, 49);
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+
 }
